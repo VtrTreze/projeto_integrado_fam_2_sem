@@ -1,0 +1,16 @@
+﻿.login_box {
+    background-color: #fff;
+    box-shadow: 3px 3px 5px #DCDCDC;
+    text-align: center;
+    padding: 50px;
+    color: #8B8989;
+    font-weight: bold;
+}
+
+.login_box_input {
+    border: 1px solid #FF8C00;
+    height: 30px;
+    font-size: 20px;
+    color: #999;
+    margin: 10px;    
+}

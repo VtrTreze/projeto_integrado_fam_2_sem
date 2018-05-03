@@ -1,0 +1,162 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: verdana;
+    max-width: 1920px;
+    min-width: 1000px;
+    background-color: #F5F5F5;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #DCDCDC;
+    color: #8B8989;
+    font-size: 11px;
+    text-align: right;
+    font-weight: bold;
+}
+
+.footer_text {
+    padding: 10px;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.aside {
+    width: 200px;
+}
+
+.fleft {
+    float: left;
+}
+
+.fright {
+    float: right;
+}
+
+.sidebar {
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px #DCDCDC;
+    width: 250px;
+}
+
+/* HEADER - INÍCIO */
+
+#header_menu ul {
+    padding: 10px;
+    margin: 0px;
+    background-color: #F5F5F5;
+    list-style: none;
+    text-align: left;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+#header_menu ul li {
+    display: inline;
+}
+
+#header_menu ul li a {
+    padding: 5px 10px;
+    display: inline-block;
+    /* visual do link */
+    font-weight: bold;
+    background-color: #F5F5F5;
+    color: #8B8989;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+#header_menu ul li a:hover {
+    color: #FF8C00;
+}
+
+.header_logo{
+    text-align: center;
+}
+
+.header_logo img{
+    width: 300px;
+}
+
+#mnu_btn_login{
+    float: right;
+}
+
+/* HEADER - FIM */
+
+/* POST - INÍCIO */
+
+.main_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/
+    padding: 10px;
+}
+
+#post_display {
+    background-color: #fff;
+    margin-right: 20px;
+    width: 620px;
+    box-shadow: 3px 3px 5px #DCDCDC;
+}
+.post_image img{
+    width: 620px;
+    height: 310px;
+}
+
+.post_text {
+    font-size: 13px;
+    text-align: center;
+}
+
+.post_fist_title {
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF8C00;
+    font-weight: bold;
+}
+.post_second_title {
+    cursor: pointer;
+    padding: 0;
+    text-decoration: none;
+    color: #999;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.post_text_content{
+    text-align: left;
+    padding: 20px;
+}
+
+.post_author{
+    font-style: italic;
+    color: #999;
+    padding: 0px 0px 30px 30px;
+    text-align:left;
+}
+
+.post_button {
+    padding: 15px;
+    color: #FF8C00;
+    background-color: #fff;
+    border: 1px solid #FF8C00;
+}
+
+.post_button:hover {
+    background-color: #FF8C00;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* POST - FIM */
