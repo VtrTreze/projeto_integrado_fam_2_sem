@@ -5,6 +5,8 @@
     padding: 50px;
     color: #8B8989;
     font-weight: bold;
+    flex: 0 1 50%;
+    margin-top: 35%;
 }
 
 .login_box_input {

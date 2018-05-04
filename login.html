@@ -4,38 +4,41 @@
     <meta charset="utf-8" />
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/login.js"></script>
+    <link href="css/normalize.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <link href="css/login.css" rel="stylesheet" />
     <title>Login</title>
 </head>
 <body>
-    <header>
-        <nav id="header_menu">
+    <div class="geral">
+        <nav class="header_menu">
             <ul>
-                <li><a id="mnu_btn_home" href="home.html">HOME</a></li>
-                <li><a href="#">PESQUISAS</a></li>
+                <li><a id="mnu_btn_home" href="home.html">BLOG</a></li>
+                <li><a href="#">HISTÓRIA DO GOVERNO DO RIO</a></li>
+                <li><a href="#">PESQUISAS ELEITORAIS</a></li>
+                <li><a href="#">PRÉ-CANDIDATOS DO RIO DE JANEIRO</a></li>
                 <li><a href="#">QUEM SOMOS</a></li>
                 <li><a id="mnu_btn_login" href="login.html">LOGIN</a></li>
             </ul>
         </nav>
-    </header>
-    <div class="main_content">
-        <div class="login_box">
-            USUÁRIO
-            <br />
-            <input type="text" class="login_box_input" />
-            <br />
-            SENHA
-            <br />
-            <input type="password" class="login_box_input" />
-            <br />
-            <input class="post_button" type="button" value="LOGIN" />
-            <input class="post_button" type="button" value="CANCELAR" />
-        </div>
-    </div>
-    <div class="footer">
-        <div class="footer_text">
-            Nome do nosso blog - 2018 - Todos os diretos reservados.
+        <section class="container">
+            <div class="main_content">
+                <div class="login_box">
+                    USUÁRIO
+                    <br />
+                    <input type="text" class="login_box_input" />
+                    <br />
+                    SENHA
+                    <br />
+                    <input type="password" class="login_box_input" />
+                    <br />
+                    <input class="post_button" type="button" value="LOGIN" />
+                    <input class="post_button" type="button" value="CANCELAR" />
+                </div>
+            </div>
+        </section>
+        <div class="footer_box">
+            <p>Nome do nosso blog - 2018 - Todos os diretos reservados.</p>
         </div>
     </div>
 </body>
